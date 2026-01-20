@@ -1,5 +1,5 @@
 const User = require("../models/userModel");
-const { generateToken, jwtAuthMiddleware } = require("../middleware/jwt.js");
+const { generateToken, jwtAuthMiddleware } = require("../jwt.js");
 
 exports.signup = async (req, res) => {
   try {
