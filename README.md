@@ -2,7 +2,7 @@
 This is the **backend of a Voting App** built with **Node.js, Express, and MongoDB**.  
 It provides APIs for **user authentication, candidate management, and voting**.
 
-#Features
+H1 Features
 User sign up and login with Aadhar Card Number and password
 User can view the list of candidates
 User can vote for a candidate (only once)
