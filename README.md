@@ -45,6 +45,6 @@ git clone https://github.com/SarvjotSingh-1/voting_app_backend.git
 - **GET** `/candidates/candidate` – Get all candidates (name & party)  
 
 
-![Voting App Banner]([https://i.imgur.com/abcd1234.png])
+
 
 
