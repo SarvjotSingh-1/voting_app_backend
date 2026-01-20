@@ -20,5 +20,12 @@ bcrypt for password hashing
 1.Clone the repository:
 git clone https://github.com/SarvjotSingh-1/voting_app_backend.git
 
+# API Endpoints
+## Authentication
+### Sign Up
+.POST /signup: Sign up a user
+### login
+.POST /login: Login a user
+
 
 
