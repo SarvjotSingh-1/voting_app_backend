@@ -10,11 +10,11 @@ Admin can manage candidates (add, update, delete)
 Admin cannot vote
 
 ## Technologies Used
-Node.js
-Express.js
-MongoDB
-JSON Web Tokens (JWT) for authentication
-bcrypt for password hashing
+- Node.js  
+- Express.js  
+- MongoDB & Mongoose  
+- JSON Web Tokens (JWT) for authentication  
+- bcrypt for password hashing  
 
 ## Installation
 1.Clone the repository:
