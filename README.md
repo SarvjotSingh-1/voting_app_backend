@@ -30,5 +30,19 @@ git clone https://github.com/SarvjotSingh-1/voting_app_backend.git
 ### Login
 - **POST** `/login` – Login an existing user
 
+## User Profile
+
+- **GET** `/profile` – Get logged-in user profile (**requires auth**)  
+- **PUT** `/profile/password` – Update logged-in user password (**requires auth**)  
+
+## Candidate Routes
+
+- **POST** `/candidates/` – Add a new candidate (**Admin only**)  
+- **PUT** `/candidates/:CandidateID` – Update candidate by ID (**Admin only**)  
+- **DELETE** `/candidates/:CandidateID` – Delete candidate by ID (**Admin only**)  
+- **POST** `/candidates/vote/:candidateID` – Vote for a candidate (**User only**)  
+- **GET** `/candidates/vote/count` – Get vote counts for all candidates  
+- **GET** `/candidates/candidate` – Get all candidates (name & party)  
+
 
 
